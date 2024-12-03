@@ -1,7 +1,6 @@
 # Advent of Code 🎄
 Este repositorio contiene mis soluciones para el **Advent of Code**, desarrollado en **Java**. Cada día incluye dos problemas, y las soluciones están organizadas por paquetes.
 
-Es un repositorio anti-spoilers, así que subiré mi resolución pasados mínimo dos días de cada problema.
 ## Estructura del proyecto 📂
 El proyecto está organizado de la siguiente manera:
 ```
