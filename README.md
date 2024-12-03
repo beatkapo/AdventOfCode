@@ -20,7 +20,7 @@ src/
 ## Uso 🚀
 Si te ha gustado la estructura y quieres utilizarla, te lo resumo en unos pasos.
 
-1. **Configurar la cookie de sesión:** Obtén tu cookie de sesión desde la página de Advent of Code utilizando una extensión como [Cookie Editor](https://chromewebstore.google.com/detail/cookie-editor/hlkenndednhfkekhgcdicdfddnkalmdm). Añádela al archivo `AdventOfCodeInputFetcher.java` en la variable `SESSION_COOKIE`.
+1. **Configurar la cookie de sesión:** Obtén tu cookie de sesión desde la página de Advent of Code utilizando una extensión como [Cookie Editor](https://chromewebstore.google.com/detail/cookie-editor/hlkenndednhfkekhgcdicdfddnkalmdm). Añádela al archivo `AdventOfCodeInputFetcher.java` en la variable `SESSION`.
 
 ![Ejemplo de uso de Cookie Editor](AdventOfCode/assets/img/cookie.gif)
    
