@@ -2,11 +2,9 @@ package aoc2024.dia1;
 
 import input.AdventOfCodeInputFetcher;
 
-import java.util.ArrayList;
-import java.util.Comparator;
-import java.util.List;
+import java.util.*;
 
-public class PrimeraEstrella {
+public class SegundaEstrella {
 
     private static final int DIA = 1; // Cambiar por el día del mes correspondiente
     private static final int ANYO = 2024; // Cambiar por el año correspondiente
@@ -38,19 +36,21 @@ public class PrimeraEstrella {
             der.add(b);
         }
 
-        izq.sort(Comparator.naturalOrder());
-        der.sort(Comparator.naturalOrder());
+        Map<Integer, Integer> aparicionesIZQ = new HashMap<>();
 
-        List<Integer> distancias = new ArrayList<>();
-
-        for (int i = 0; i < izq.size(); i++) {
-            int max = Math.max(izq.get(i), der.get(i));
-            int min = Math.min(izq.get(i), der.get(i));
-            distancias.add(max - min);
+        for (int clave : izq) {
+            if (der.contains(clave)) {
+                int apariciones = Collections.frequency(der, clave);
+                aparicionesIZQ.put(clave, apariciones);
+            }
         }
-
-        int suma = distancias.stream().mapToInt(Integer::intValue).sum();
-
+        int suma = 0;
+        for (Map.Entry<Integer, Integer> entry : aparicionesIZQ.entrySet()) {
+            int key = entry.getKey();
+            int value = entry.getValue();
+            int resultado = key * value;
+            suma += resultado;
+        }
         return suma;
     }
 }
