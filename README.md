@@ -24,12 +24,11 @@ Si te ha gustado la estructura y quieres utilizarla, te lo resumo en unos pasos.
 ![Ejemplo de uso de Cookie Editor](AdventOfCode/assets/img/cookie.gif)
    
 2. **Ejecutar un problema diario:** Cada día contiene dos clases (`PrimeraEstrella` y `Plantilla`). Los archivos están preparados para que, si está bien configurado, imprima el input por consola y guarde el archivo.
-4. **Descargar el input automáticamente:**  La clase `AdventOfCodeInputFetcher` descargará y guardará el input en la carpeta `input/` con nombre correspondiente al día y año que especifiques.
-5. **Procesar el input:**  El input se devuelve como un `String`. A partir de aquí es tu trabajo, aunque tengo pensado añadir una clase `InputUtils` para poder facilitar el manejo de la entrada.
+3. **Procesar el input:**  El input se devuelve como un `String`. A partir de aquí es tu trabajo, aunque tengo pensado añadir una clase `InputUtils` para poder facilitar el manejo de la entrada.
 ## Notas ✍️
 
-- Los inputs de Advent of Code son únicos para cada usuario. Asegúrate de no compartir tu cookie o tus inputs.
-- Si no puedes descargar los inputs automáticamente, puedes copiarlos manualmente desde la página web y pegarlos en un archivo en la carpeta `input/`.
+- Cualquier mejora es bienvenida, yo solo soy un novato que intenta organizarse sus cosas.
+- Asegurate de no compartir tu cookie con nadie.
 
 ## Recursos 📚
 
