@@ -13,7 +13,7 @@ public class PrimeraEstrella {
 
     public static void main(String[] args) {
         // Recuperar el input
-        String input = AdventOfCodeInputFetcher.leerInput(DIA, ANYO);
+        String input = AdventOfCodeInputFetcher.fetchInput(DIA, ANYO);
         System.out.println("*** Input del día "+ DIA +" ***\n" + input);
         // Resolver el problema
         int resultado = resolverProblema(input);
